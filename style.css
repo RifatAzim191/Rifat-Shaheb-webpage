@@ -60,7 +60,6 @@ h1:hover {
   font-family: comic sans ms;
   font-size: 16px;
   line-height: 1.5;
-  margin: 20px 0;
   text-align: justify;
   padding: 80px;
   font-weight: 300;
@@ -77,29 +76,22 @@ h2.logo img {
   box-shadow: 0 0 10px #f31e0f, 0 0 20px #ffdb78, 0 0 30px #ff1911;
   border-radius: 50%;
 }
-ul.social-media{
-  display: block;
-  margin-top: 20px;
-}
-.button {
-  display: inline-block;
-  justify-content: center;
-  padding: 10px;
-  margin: 0 5px;
-  background-color: #000;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  min-height: 100vh;
     background: url(RSC.jpg);
     background-size: cover;
     background-position: center;
+}
+div.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #c9c9c9;
+  text-decoration: none;
+  border-bottom: 2px solid #c9c9c9;
+  padding-bottom: 2px;
+}
+div.social-media a:hover {
+  border-bottom-color: #f00;
 }
 .navigation a{
     position: relative;
